@@ -1,0 +1,10 @@
+/* Margin and padding reset */
+#infoPanel{
+  float:right;
+  width:40%;
+}
+
+#map_canvas{
+float:left;
+width:70%;
+}

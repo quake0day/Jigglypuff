@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<title>Audio Recorder</title>
+    <script src="http://cwilso.github.io/AudioContext-MonkeyPatch/AudioContextMonkeyPatch.js"></script>
+
+	<script src="static/js/audiodisplay.js"></script>
+	<script src="static/js/recorderjs/recorder.js"></script>
+	<script src="static/js/main.js"></script>
+	<script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
+	<script src="static/js/json2.js"></script>
+	<!--jQuery Begin-->
+	<script type="text/javascript">
+
+</script>
+<!--jQuery Ends-->
+	<style>
+	body { font: 14pt Arial, sans-serif; background: lightgrey; }
+	select { font: 14pt Arial, sans-serif; }
+	body { text-align: center; margin-top: 12pt;}
+	canvas { display: inline-block; background: #202020; box-shadow: 0px 0px 10px blue;}
+	#record.recording { background: red;
+	background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); }
+	</style>
+</head>
+<body>
+	<canvas id="analyser" width="768" height="200"></canvas><br>
+	<canvas id="wavedisplay" width="768" height="200"></canvas><br>
+	<img id="record" width="128" height="128" src="static/mic128.png" onclick="toggleRecording(this);"><br>
+	<img src="static/save.svg" onclick="saveAudio();">
+	<div id="showcase">showcasehere</div>
+</body>
+</html>
