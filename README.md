@@ -1,7 +1,7 @@
 # Jigglypuff
 Enabling Secure Keyless Acoustic Communication for Smartphones
 
-![Copy Right:http://userserve-ak.last.fm/serve/_/36166979/Jigglypuff++Seduction.gif](http://userserve-ak.last.fm/serve/_/36166979/Jigglypuff++Seduction.gif)]
+![Copy Right:https://i.v2ex.co/68EFXZQT.png](https://i.v2ex.co/68EFXZQT.png)
 
 
 ## How to Use
